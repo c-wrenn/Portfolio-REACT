@@ -4,15 +4,16 @@
 import './App.css'
 
 import { Outlet } from 'react-router-dom';
-import Navigation from "./components/Navigation";
-import Footer from '../components/Footer'
+//import Navigation from "./components/Navigation";
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 function App(){
     return (
       <>
       {/* gets all the components that are needed for the page and puts in one compact app  */}
       <body className='min-vh-90'>
-        <Navigation/>
+        <Header/>
         <main className="mx-4">
           <Outlet />
         </main>
