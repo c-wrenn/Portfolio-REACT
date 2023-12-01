@@ -9,6 +9,10 @@ import Portfolio from './pages/Portfolio.jsx';
 import Contact from './pages/Contact.jsx';
 import Resume from './pages/Resume.jsx';
 
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import "./index.css";
+
 const router = createBrowserRouter([
   {
     path: "/",
