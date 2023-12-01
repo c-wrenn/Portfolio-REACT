@@ -1,3 +1,7 @@
+// import github from "../img/github.svg";
+// import linkedIn from "../img/linkedIn.svg"
+
+
 const Footer = () => {
     return (
         <footer>
@@ -12,6 +16,8 @@ const Footer = () => {
                     rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faGithub} />
                     </a>
+
+
 
                 </ul>
             </div>

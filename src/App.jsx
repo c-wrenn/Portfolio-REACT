@@ -3,10 +3,6 @@
 // import viteLogo from '/vite.svg'
 import './App.css'
 import React from "react";
-import { Outlet } from "react-router-dom";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-
 import { Outlet } from 'react-router-dom';
 //import Navigation from "./components/Navigation";
 import Header from '../components/Header';
@@ -19,11 +15,11 @@ function App(){
       <body className='min-vh-90'>
         <Header/>
         <main className="mx-4">
-          <Outlet />
+          <Outlet/>
         </main>
       </body>
       <footer className='col-12 mt-5 d-flex justify-content-center'>
-        <Footer />
+        <Footer/>
       </footer>
       </>
     )

@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 
 // Import Fontawesome and the icons
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import "@fortawesome/fontawesome-free/css/all.css";
+import { FontAwesomeIcon } from "@fontawesome/react-fontawesome";
+import { faGithub } from "@fontawesome/free-brands-svg-icons";
+import "@fontawesome/fontawesome-free/css/all.css";
 
 const Project = ({
   title,

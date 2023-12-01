@@ -1,4 +1,13 @@
-//export default 
+import { useState } from 'react';
+
+const styles = {
+    buttonStyle: {
+      borderRadius: '10px',
+      color: 'white',
+      background: 'blue'
+    },
+  }
+
 function Contact() {
     return (
         <section>
@@ -14,7 +23,11 @@ function Contact() {
                     </a>
                     <a href="mailto:crislynwren@yahoo.com" target="_blank">Email: crislynwren@gmail.com
                     </a>
-                    <a href="tel:+2149841219">Phone: (214) 984 - 1219
+                    <a href="tel:+2149841219">  <
+                        i
+                    className="fa-solid fa-phone"
+                    style={{ padding: "5px" }}
+                  ></i>
                     </a>
             </div>
         </section>
