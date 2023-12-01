@@ -5,14 +5,11 @@ import { useState } from 'react';
 const styles = {
     buttonStyle: {
       borderRadius: '10px',
-      color: '#A69888',
-      background: '#A69888'
+      color: 'black',
+      background: 'transparent'
     },
     paragraphStyle: {
         color: '#A69888'
-        // fontFamily: 'Mulish, sans-serif',
-        // letterSpacing: '1.2px',
-        // lineHeight: '1.6rem',
       }
   }
 
@@ -23,11 +20,11 @@ function Contact() {
                 <p>Contact Me</p>
                     <a href="https://www.linkedin.com" target="_blank"
                         rel="noopener noreferrer"> 
-                        <FontAwesomeIcon icon={faLinkedin} />
+                        <FontAwesomeIcon icon={faLinkedin} /> Linked In
                     </a>
                     <a href="https://github.com/c-wrenn"   target="_blank"
                         rel="noopener noreferrer">
-                        <FontAwesomeIcon icon={faGithub} />
+                        <FontAwesomeIcon icon={faGithub} /> Github
                     </a>
                     <a href="mailto:crislynwren@yahoo.com" target="_blank">Email: crislynwren@gmail.com
                     </a>

@@ -1,4 +1,4 @@
-// Import Navigation component
+// Import Navigation 
 import Navigation from "./Navigation.jsx";
 
 // Header component

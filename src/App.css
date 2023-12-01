@@ -40,8 +40,7 @@
 .read-the-docs {
   color: #888;
 }
-/* :start */
-  /* Header style */
+
   header {
     background-color: #709775;
     padding: 1.2rem;
@@ -78,20 +77,15 @@
    }
  
    .navbar-logo {
-     /* box-shadow: 3px 7px 15px 7px #fff; */
-     /* border-radius: 5px 30px; */
      padding-top: 3px;
      padding-bottom: 3px;
    }
  
    .navbar {
      background-color: #F5DFBB !important;
-     /* border-radius: 10px; */
-     /* border: 3px solid #1a2f57; */
    }
  
    .navbar-toggler {
-     /* background-color: #0e5ced; */
      border: 3px solid #521212;
      margin-top: 0rem;
      margin-right: 0rem;
@@ -99,5 +93,10 @@
  
    nav {
      margin-top: 1rem;
+   }
+
+   section {
+
+    width: 100%;
    }
  
