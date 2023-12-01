@@ -1,17 +1,25 @@
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from 'react';
 
 const styles = {
     buttonStyle: {
       borderRadius: '10px',
-      color: 'white',
-      background: 'blue'
+      color: '#A69888',
+      background: '#A69888'
     },
+    paragraphStyle: {
+        color: '#A69888'
+        // fontFamily: 'Mulish, sans-serif',
+        // letterSpacing: '1.2px',
+        // lineHeight: '1.6rem',
+      }
   }
 
 function Contact() {
     return (
         <section>
-            <div>
+            <div style = {styles.paragraphStyle}>
                 <p>Contact Me</p>
                     <a href="https://www.linkedin.com" target="_blank"
                         rel="noopener noreferrer"> 

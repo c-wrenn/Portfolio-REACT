@@ -11,9 +11,10 @@ import Footer from './components/Footer';
 function App(){
     return (
       <>
+       <Header/>
       {/* gets all the components that are needed for the page and puts in one compact app  */}
       <body className='min-vh-90'>
-        <Header/>
+       
         <main className="mx-4">
           <Outlet/>
         </main>

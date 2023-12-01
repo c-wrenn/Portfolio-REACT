@@ -9,7 +9,7 @@ const styles = {
     fontStyle: {
       fontWeight: '900',
       fontSize: '4rem',
-      fontFamily: 'Roboto, sans-serif',
+      fontFamily: 'Inter, system-ui, Avenir, Helvetica, Arial, sans-serif',
     },
     paragraphStyle: {
       fontFamily: 'Mulish, sans-serif',
@@ -23,9 +23,9 @@ const styles = {
 function About() {
     return(
         <main>
+          <h1 styles={styles.letterStyle.fontStyle}>About Me</h1>
 <section>
     <div>
-        <h1 styles={styles.letterStyle.fontStyle}>About Me</h1>
         <div>
         <div className="col-md-12">
               <p styles={styles.letterStyle.fontStyle}>
