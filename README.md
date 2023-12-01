@@ -12,7 +12,6 @@ This is a Portfolio. This project is meant to display my skills as a software de
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Tests](#tests)
 - [License](#license)
 - [Contributions](#contributions)
 - [Questions](#questions)
@@ -30,10 +29,6 @@ To use this application:
 This Portfolio app utilizes: 
 
 - REACT
-
-## Tests
-
-N/A
 
 ## License
 
@@ -69,8 +64,8 @@ Github: https://github.com/c-wrenn
 
 Email: crislynwren@yahoo.com
 
-![CyberMart](cybermart.png)
+<!-- ![CyberMart](cybermart.png)
 ![NoteTaker](notetaker.png)
 ![key-generator](key.png)
 ![jate](jate.png)
-![socialnetwork](socialnetwork.png)
+![socialnetwork](socialnetwork.png) -->
