@@ -1,6 +1,8 @@
 // import github from "../img/github.svg";
 // import linkedIn from "../img/linkedIn.svg"
-
+//import 'bootstrap/dist/css/bootstrap.css';
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Footer = () => {
     return (
@@ -16,9 +18,6 @@ const Footer = () => {
                     rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faGithub} />
                     </a>
-
-
-
                 </ul>
             </div>
             <section>
