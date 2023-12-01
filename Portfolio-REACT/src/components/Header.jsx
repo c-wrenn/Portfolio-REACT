@@ -5,8 +5,8 @@ import Navigation from "./Navigation.jsx";
 const Header = () => {
   return (
     <header>
-      {/* <h1>Can add text here if needed</h1> */}
-      {/* Navigation component for the navigation links */}
+      <h1>Crislyn's Portfolio</h1> 
+      {/* Navigation links */}
       < Navigation />
     </header>
   );

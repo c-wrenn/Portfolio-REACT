@@ -4,7 +4,7 @@
 
 ## Description
 
-This is a Portfolio. This project is meant to display my skills as a oftware developer.
+This is a Portfolio. This project is meant to display my skills as a software developer.
 
 
 ## Table of Contents
