@@ -40,3 +40,64 @@
 .read-the-docs {
   color: #888;
 }
+/* :start */
+  /* Header style */
+  header {
+    background-color: #709775;
+    padding: 1.2rem;
+  }
+
+   /* Navbar styles */
+   .navbar-brand,
+   .navbar-nav .nav-link {
+     color: #e020a3;
+     font-family: "Aladin", sans-serif;
+     font-size: 1.0rem;
+     letter-spacing: 2px;
+     text-shadow: 5px 5px 10px #1a2f57;
+   }
+ 
+   .navbar-nav .nav-link:hover {
+     font-size: 1.5rem;
+     letter-spacing: 2px;
+     color: #1a2f57;
+     text-shadow: 5px 5px 10px #1a2f57;
+   }
+ 
+   .navbar-brand {
+     margin-left: 10px;
+     letter-spacing: 7px;
+     font-size: 1.6rem;
+     text-shadow: 5px 5px 10px #454f61;
+   }
+ 
+   .navbar-brand:hover {
+     text-decoration: none;
+     color: #fff;
+     text-shadow: 5px 5px 10px #1a2f57;
+   }
+ 
+   .navbar-logo {
+     /* box-shadow: 3px 7px 15px 7px #fff; */
+     /* border-radius: 5px 30px; */
+     padding-top: 3px;
+     padding-bottom: 3px;
+   }
+ 
+   .navbar {
+     background-color: #F5DFBB !important;
+     /* border-radius: 10px; */
+     /* border: 3px solid #1a2f57; */
+   }
+ 
+   .navbar-toggler {
+     /* background-color: #0e5ced; */
+     border: 3px solid #521212;
+     margin-top: 0rem;
+     margin-right: 0rem;
+   }
+ 
+   nav {
+     margin-top: 1rem;
+   }
+ 

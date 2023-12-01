@@ -5,7 +5,6 @@ import Navigation from "./Navigation.jsx";
 const Header = () => {
   return (
     <header>
-      <h1>Crislyn's Portfolio</h1> 
       {/* Navigation links */}
       < Navigation />
     </header>
