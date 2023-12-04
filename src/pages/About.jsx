@@ -10,6 +10,7 @@ const styles = {
       fontWeight: '900',
       fontSize: '4rem',
       fontFamily: 'Inter, system-ui, Avenir, Helvetica, Arial, sans-serif',
+      
     },
     paragraphStyle: {
       fontFamily: 'Mulish, sans-serif',
@@ -22,6 +23,7 @@ const styles = {
 
 function About() {
     return(
+<body>
         <main>
           <h1 styles={styles.letterStyle.fontStyle}>About Me</h1>
 <section>
@@ -49,6 +51,7 @@ function About() {
 </section>
 
         </main>
+        </body>
     );
 }
 

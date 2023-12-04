@@ -12,7 +12,7 @@ function App(){
     return (
       <>
        <Header/>
-      {/* gets all the components that are needed for the page and puts in one compact app  */}
+      {/* gathers the needed components */}
       <body className='min-vh-90'>
        
         <main className="mx-4">

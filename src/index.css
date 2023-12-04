@@ -4,8 +4,8 @@
   flex-direction: column;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   text-rendering: optimizeLegibility;
-  color: black;
-  background-color: #A69888;
+  color: #B7AD99;
+  background-color: #709775;
 
 }
 
@@ -24,14 +24,14 @@ body {
   display: flex;
   min-width: 320px;
   min-height: 100vh;
-  color: black;
+  color: #B7AD99;
  
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
-  background-color: grey;
+  background-color: #709775;
 }
 
 button {

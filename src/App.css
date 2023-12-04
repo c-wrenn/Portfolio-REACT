@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  
 }
 
 .logo {
@@ -38,7 +39,7 @@
 }
 
 .read-the-docs {
-  color: #888;
+  color: #709775;
 }
 
   header {
@@ -59,8 +60,8 @@
    .navbar-nav .nav-link:hover {
      font-size: 1.5rem;
      letter-spacing: 2px;
-     color: #1a2f57;
-     text-shadow: 5px 5px 10px #1a2f57;
+     color: #f0f2f5;
+     text-shadow: 5px 5px 10px #B7AD99;
    }
  
    .navbar-brand {
@@ -82,7 +83,7 @@
    }
  
    .navbar {
-     background-color: #F5DFBB !important;
+     background-color: #709775 !important;
    }
  
    .navbar-toggler {
@@ -96,7 +97,13 @@
    }
 
    section {
-
+  background-color: #709775;
     width: 100%;
    }
- 
+ main {
+  background-color: #709775;
+ }
+ body {
+  background-color: #709775;
+  color: #709775; 
+ }

@@ -17,33 +17,33 @@ import "./index.css";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: <App/>,
     children: [
       {
         path: "/",
-        element: <About />,
+        element: <About/>,
       },
       {
         path: "about",
-        element: <About />,
+        element: <About/>,
       },
       {
         path: "portfolio",
-        element: <Portfolio />,
+        element: <Portfolio/>,
       },
       {
         path: "resume",
-        element: <Resume />,
+        element: <Resume/>,
       },
       {
         path: "contact",
-        element: <Contact />,
+        element: <Contact/>,
       },
     ],
   },
 ]);
 
-// Render the RouterProvider component, wrapping the entire application in a router
+// Render the RouterProvider component
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <RouterProvider router={router}>
